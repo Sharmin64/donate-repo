@@ -75,7 +75,7 @@ color: black;
 /* donate plan section style */
 .heading{
     display: flex;
-    padding: 130px 375px;
+    padding: 100px 375px;
     margin:0 auto;
     text-align: center;
 }
@@ -89,10 +89,26 @@ color: black;
     margin: 35px 15px;
     padding: 30px 19px;
     text-align: center;
-    border: 2px solid gray;
-    border-radius: 6px;
+    height: 450px;
+    
 }
-.item> .box +.box2 + .box3{
-    margin-left: 15px;
-    margin-right: 15px;
+.box1{
+    background-color: aquamarine;
+    margin: 29px 20px;
+    padding: 23px 56px;
+    border-radius: 5px;
 }
+.box2{
+    background-color: antiquewhite;
+    margin: 29px 20px;
+    padding: 23px 56px;
+    border-radius: 5px;
+}
+.box3{
+    background-color:darksalmon;
+    margin: 29px 20px;
+    padding: 23px 50px;
+    border-radius: 5px;
+    
+}
+
