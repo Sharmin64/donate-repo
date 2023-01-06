@@ -27,15 +27,72 @@
 
 .donate{
     text-align: center;
-    height: 360px;
+    height: 400px;
     display:block;
     margin: 0 auto;
-    background-color: aliceblue;
-    color: black;
-    padding: 150px 355px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(109, 103, 103, 0.748);
+    padding: 60px 355px;
 }
 .donate >h2{
 text-align: center;
-font-weight: 600;
-font-size: 30px;
+font-weight: 700;
+font-size: 50px;
+color: black;
+}
+.donate>ul{
+ 
+    display: flex;
+    padding: 8px 5px;
+    margin:40px 15px ;
+}
+.lists>li{
+    text-decoration: none;
+    text-size-adjust: bold;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 36px 15px;
+    margin:10px ;
+    border: 1px solid white;
+    border-radius: 4px;
+    flex-direction: row;
+    list-style-type: none;
+    background-position: sticky;
+}
+.btn-second{
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid gray;
+    background: red;
+    color: azure;
+    border-radius: 5px;
+}
+.lists>li:hover{
+    background-color: rgba(240, 148, 115, 0.668);
+   
+    
+}
+/* donate plan section style */
+.heading{
+    display: flex;
+    padding: 130px 375px;
+    margin:0 auto;
+    text-align: center;
+}
+.heading .title{
+    font-weight: 700;
+    font-size: 45px;
+
+}
+.item{
+    display: flex;
+    margin: 35px 15px;
+    padding: 30px 19px;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+.item> .box +.box2 + .box3{
+    margin-left: 15px;
+    margin-right: 15px;
 }
