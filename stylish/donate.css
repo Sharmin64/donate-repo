@@ -111,4 +111,81 @@ color: black;
     border-radius: 5px;
     
 }
+/* depends on donation */
 
+.flex{
+    display: flex;
+    position: left;
+    /* border: 2px solid gray; */
+    
+    height: 400px;
+    margin: 34px 44px;
+    padding: 24px 56px;
+}
+.flex>div>p{
+    color: darkgray;
+   justify-items: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+}
+.flex .lives{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+.btn{
+    background-color: brown;
+    border-radius: 6px;
+    padding: 12px 18px;
+    margin: 15px 10px;
+}
+.new-update{
+    justify-content: center;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 130px;
+    height: auto;
+}
+.update{
+    display: block;
+    text-align: center;
+    height: 160px;
+}
+.update>h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.update>p{
+    font-weight: 400;
+    font-size: 20px;
+    color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.label{
+    background-color: bisque;
+    padding: 34px 50px;
+    margin: 123px 253px;
+}
+.navbar{
+    text-align: center;
+    background-color: black;
+    height: 150px;
+    font-family: cursive;
+}
+.baton{
+    color: whitesmoke;
+    background-color: brown;
+    row-gap: 0;
+}
+.navbar>h3{
+    color: crimson;
+    font-weight: 700;
+    font-size: 40px;
+}
+.navbar>p{
+    color: azure;
+    font-weight: 300;
+    font-size: 18px;
+}
