@@ -1,7 +1,7 @@
 .container{
     text-align: center;
     display: block;
-    background-image: url(./images/donation1.jpg);
+    background-image: url("../images/donation1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 550px;
